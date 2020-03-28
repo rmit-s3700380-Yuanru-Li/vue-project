@@ -1,0 +1,48 @@
+li {list-style:none;}
+.indexList{
+list-style-image: url(../images/arrow.png);
+}
+.text-orange{
+    color:#F47721;
+}
+.bg-header{
+    background-color:#F5F5F5;
+}
+.block{
+    width:10px;background-color:#F47721;height:50px;
+}
+.block-left{
+    margin-right:-22px;
+    z-index: 999;
+}
+.block-right{
+    margin-left:-22px;
+    
+}
+.afterSpot:after{
+    content: "  "url(../images/spot.png);
+    font-size: 16px;
+    padding-right: 5px;
+}
+.listSpot{
+    list-style-image: url(../images/spot.png);
+}
+.listIcon::before{
+    content:url(../images/listicon1.png)"  ";
+    padding-right: 10px;
+}
+.f16{
+    font-size: 16px;
+}
+.f18{
+    font-size: 16px;
+}
+.f20{
+    font-size: 20px;
+}
+.f24{
+    font-size: 24px;
+}
+.f32{
+    font-size: 32px;
+}
